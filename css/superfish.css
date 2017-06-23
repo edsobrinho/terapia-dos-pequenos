@@ -4,7 +4,7 @@
 	float: right;
 	position: relative;
 	z-index: 999;
-	padding-top: 25px;
+	padding-top: 45px;
 }
 
 nav>.sf-menu {
@@ -37,8 +37,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu>li>a{
-	color: #fff; 
-	font-family:  Arial, Helvetica, sans-serif;
+	color: #b382ba; 
+	font-family: 'bree_rgbold', Arial, Helvetica, sans-serif;
 	font-size: 14px; 
 	line-height: 24px;
 	position: relative;
@@ -58,7 +58,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
-	color: #41dcf3;
+	color: #05a3c0;
 }
 
 
@@ -112,7 +112,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	color: #555555;
 }
 
-.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{  color: #41dcf3 !important;}
+.sf-menu li li a:hover, .sf-menu li.sfHover li.sfHover>a{  color: #82d2e5 !important;}
 
 /*================================>> 3 Level <<========================================*/
 .sf-menu li li ul{

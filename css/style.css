@@ -2,6 +2,7 @@
 @import "../css/reset.css";
 @import "../css/skeleton.css";
 @import "../css/superfish.css";
+@import "fonts.css";
 
 
 
@@ -20,13 +21,14 @@ text-decoration:none;
 
 
 body {
-	font: 13px/20px Arial, Helvetica, sans-serif;
-	color:#525252;
-	background-color: #322f2f;
+	font: 13px/20px;
+	color:#000000;
+	background-color: #fec232;
 	position:relative;
 	min-width:960px;
 	height: 100%;
 	min-height: 100%;
+	font-family: 'bree_rgregular', Arial, Helvetica, sans-serif;
 }
 html, body {
 	height:100%;
@@ -34,7 +36,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
-	color: #525252;
+	color: #000000;
 }
 
 input {
@@ -66,7 +68,7 @@ ul.list li {
 }
 
 ul.list li a {
-	color: #41dcf3;
+	color: #82d2e5;
 }
 
 ul.list li a:after  {
@@ -124,18 +126,18 @@ a.btn {
 }
 
 a.btn:hover {
-	background-color: #41dcf3;
+	background-color: #82d2e5;
 	color: #fff;
 }
 
 a:hover {
-	color: #41dcf3;
+	color: #05a3c0;
 
 }
 
 
 a.link-1 {
-	color: #41dcf3;
+	color: #05a3c0;
 }
 
 a.link-1:hover {
@@ -243,13 +245,8 @@ er*/
 
 header {
 	display: block;
-	padding-top: 37px;
-	background-color: #322f2f;
-}
-
-header {
-	padding-bottom: 38px;
-
+	padding: 5px 0 10px 0;
+	background-color: #fec232;
 }
 
 header h1 {
@@ -259,15 +256,14 @@ header h1 {
 }
 header h1 a {
 	display: block;
-	overflow: hidden;
-	margin: 0 auto;
-	width: 321px;
-	height: 56px;
-	text-indent: -999px;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 220px;
+    text-indent: -999px;
 }
 
 header h1 a img {
-	display: block;	
+	display: block;	width: 100%;
 }
 
 .box {
@@ -313,7 +309,7 @@ header h1 a img {
 }
 
 .box:hover a.btn {
-	background-color: #41dcf3;
+	background-color: #82d2e5;
 }
 
 
@@ -350,7 +346,7 @@ header h1 a img {
 
 .content
 .emp_box .box:hover {
-	background-color: #41dcf3;
+	background-color: #82d2e5;
 }
 
 .emp_box .box a:hover {
@@ -359,7 +355,7 @@ header h1 a img {
 }
 
 .content time {
-	color: #41dcf3;
+	color: #82d2e5;
 	margin-bottom: 10px;
 	display: inline-block;
 }
@@ -389,7 +385,7 @@ header h1 a img {
 }
 
 .projects .box:hover {
-	background-color: #41dcf3 !important;
+	background-color: #82d2e5 !important;
 }
 
 .projects .box:hover a.btn {
@@ -474,7 +470,7 @@ footer {
 	display: block;
 	padding: 29px 20px 29px 0px;
 	display: block;
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 }
 

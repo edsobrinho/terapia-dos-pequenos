@@ -9,7 +9,7 @@
 .slider_wrapper {
 	margin-top: 42px;
  	position: relative;
-    border-bottom: 8px solid #d4d4d4;
+    border-bottom: 8px solid #05a3c0;
     margin-bottom: 47px;
 }
 
@@ -18,16 +18,6 @@
 	overflow: hidden;
 }
 
-.slider_wrapper:after {
-	position: absolute;
-	left: 0;
-	display: block;
-	content: '';
-	bottom: -8px;
-	height: 8px;
-	width: 320px;
-	background: #41dcf3;
-}
 
 
 
@@ -116,8 +106,8 @@
 	text-decoration: none;
 }
 .camera_loader {
-    background: #fff url(../images/camera-loader.gif) no-repeat center;
-	background: rgba(255, 255, 255, 0.9) url(../images/camera-loader.gif) no-repeat center;
+    background: #fff url(../images/gif_loader.gif) no-repeat center;
+	background: rgba(255, 255, 255, 0.9) url(../images/gif_loader.gif) no-repeat center;
 	border: 1px solid #ffffff;
 	border-radius: 18px;
 	height: 36px;

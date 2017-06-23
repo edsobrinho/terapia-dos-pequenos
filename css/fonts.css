@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'bree_rgregular';
+    src: url('../font/bree_regular-webfont.woff2') format('woff2'),
+         url('../font/bree_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bree_rgbold';
+    src: url('../font/bree_bold-webfont.woff2') format('woff2'),
+         url('../font/bree_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
