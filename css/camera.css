@@ -265,7 +265,7 @@ background: url(../images/prevnext.png) 0 0 no-repeat;
 }
 
 .camera_wrap .camera_pag .camera_pag_ul li span {
-		text-indent: -99px;	
+	text-indent: -99px;	
 	display: block;
 	overflow: hidden;
 	cursor: pointer;
