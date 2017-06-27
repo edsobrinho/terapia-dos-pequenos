@@ -17,7 +17,31 @@
      <script  src="js/jquery.responsivemenu.js"></script>
      <script  src="js/jquery.mobilemenu.js"></script>
      <script  src="js/jquery.easing.1.3.js"></script>
-    
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script>
+        $(window).load (
+  function(){
+    $('.carousel1').carouFredSel({
+      auto: false, 
+      prev: '.prev1',
+      next: '.next1', 
+      width: 940, 
+      items: {
+        visible : {
+          min: 1,
+          max: 1
+        },
+      height: 'auto',
+      width: 940,
+      }, 
+      responsive: true, 
+      scroll: 1, 
+      mousewheel: false,
+      swipe: {onMouse: true, onTouch: true}
+    });
+}
+); 
+    </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -34,17 +58,17 @@
      <body>
 <!--==============================header=================================-->
 <header>
-<div class="container_12">
+<div class="container_12 ">
     <div class="grid_12">
         <h1><a href="index.html"><img src="images/logo.png" alt="Psicologa Infantil Danielli Ponciano"></a></h1>
         <div class="menu_block">
                <nav>
             <ul class="sf-menu">
-                   <li><a href="index.html">início</a></li>
-                   <li class="current"><a href="psicologa-infantil.html">sobre</a> </li>
-                   <li><a href="atendimento-psicologia-para-criancas.html">serviço</a> </li>
+                   <li><a href="index.html">Início</a></li>
+                   <li class="current"><a href="psicologa-infantil.html">Sobre</a> </li>
+                   <li><a href="atendimento-psicologia-para-criancas.html">Serviço</a> </li>
                    <li><a href="meu-filho-precisa-terapia-infantil.html">FAQ</a> </li>
-                   <li><a href="consultorio-infantil-sao-paulo.html">contato</a></li>
+                   <li><a href="consultorio-infantil-sao-paulo.html">Contato</a></li>
                  </ul>
           </nav>
                <div class="clear"></div>
@@ -54,14 +78,28 @@
   </div>
 </header>
 <!--=======content================================-->
-<div class="content">
-  <!--
+<div class="content sobre">
+  
   <div class="container_12 ">
-    <div class="grid_4">
-      <h3>About Us</h3>
-      <img src="images/page2_img1.jpg" alt="" class="img_inner">Adipisci velitsed quia non numqueius modi tempora inciduntut labore et doloreas magnam aliquam quaerat voluptatem. ut enim adima veniam, quis nostrum.Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis.
+    <div class="grid_12">
+        <h2 class="page-title">Psicologia Infantil</h2>
+        
+      <img src="images/terapia-dos-pequenos-img-21.jpg" alt="" class="img-responsive">
+    </div>  
+  
+    <div class="grid_12">
+      <h3>Danielli Ponciano - <span>Psicologa Infantil</span></h3>
+      <p><strong>Profissional experiente e de confiança</strong></p>
+      <ul>
+        <li>Graduada em Psicologia…</li>
+        <li>Experiência em Desenvolvimento Cognitivo Infantil... </li>
+        <li>Atendimento a crianças autistas ..</li>
+        <li>Criança com atraso na fala …</li>
+        <li>Dificuldade de interação social (por exemplo, não faz amigos na escola) ..</li>
+        <li>Hiperativas ou com deficit de atenção (histórico) </li>
+      </ul>
     </div>
-    <div class="grid_8 emp_box">
+    <!-- <div class="grid_8 emp_box">
       <h3>Our Staff</h3>
     
      <div class="grid_4 alpha ">
@@ -92,51 +130,33 @@
           <img src="images/page2_img5.jpg" alt="">
           <div class="extra_wrapper"><p><strong>Sam Kromstain</strong></p> <a href="#">Sed diam non umy nibheuismod incidunt ut lao reet dolore magna. </a></div>
         </div></div>
-      </div>
+      </div> -->
     <div class="clear"></div>
     </div>
-    <div class="clear"></div>
-    <div class="grid_12">
-      <div class="hor_separator hor2"></div>
-      <h3 class="head1">Latest News</h3>
-    </div>
-    <div class="grid_4">
-      <img src="images/page2_img6.jpg" alt="" class="img_inner fleft">
-      <div class="extra_wrapper pad2">
-        <time datetime="2013-01-01">12/23/2012</time><br>
-        <strong><a href="#">Ullamcorper suscipit lobo rtis nisl t aliquip ex ea commodo conseqa</a></strong>
-      </div>
-    </div>
-    <div class="grid_4">
-      <img src="images/page2_img7.jpg" alt="" class="img_inner fleft">
-      <div class="extra_wrapper pad2">
-        <time datetime="2013-01-01">12/22/2012</time><br>
-        <strong><a href="#">Fusce euismod consequat ante. Lorem ipsum dolor sit amet</a></strong>
-      </div>
-    </div>
-    <div class="grid_4">
-      <img src="images/page2_img8.jpg" alt="" class="img_inner fleft">
-      <div class="extra_wrapper pad2">
-        <time datetime="2013-01-01">12/21/2012</time><br>
-        <strong><a href="#">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis </a></strong>
-      </div>
-    </div>
-    <div class="clear"></div>
-    <div class="grid_12">
-      <div class="hor_separator mb0 "></div>
-    </div>
-    <div class="clear"></div>
-    <div class="grid_12">
-    <h3>Clients</h3>
-      <ul class="logos">
-        <li><a href="#"><img src="images/log1.png" alt=""></a></li>
-        <li><a href="#"><img src="images/log2.png" alt=""></a></li>
-        <li><a href="#"><img src="images/log3.png" alt=""></a></li>
-        <li><a href="#"><img src="images/log4.png" alt=""></a></li>
+    
+  <div class="container_12 car">
+  <div class="grid_12">
+    <h3><span>Depoimentos</span></h3>
+    <div class="carousel_wrapper">
+    <a href="#" class="prev1"></a><a href="#" class="next1"></a><div>
+      <ul class="carousel1">
+      <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
+            <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
+            <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
       </ul>
     </div>
   </div>
-  -->
+</div></div>
+  
 </div>
 <!--==============================footer=================================-->
 
