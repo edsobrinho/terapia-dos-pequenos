@@ -17,7 +17,31 @@
      <script  src="js/jquery.responsivemenu.js"></script>
      <script  src="js/jquery.mobilemenu.js"></script>
      <script  src="js/jquery.easing.1.3.js"></script>
-    
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+    <script>
+        $(window).load (
+  function(){
+    $('.carousel1').carouFredSel({
+      auto: false, 
+      prev: '.prev1',
+      next: '.next1', 
+      width: 940, 
+      items: {
+        visible : {
+          min: 1,
+          max: 1
+        },
+      height: 'auto',
+      width: 940,
+      }, 
+      responsive: true, 
+      scroll: 1, 
+      mousewheel: false,
+      swipe: {onMouse: true, onTouch: true}
+    });
+}
+); 
+    </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -34,8 +58,9 @@
      <body>
 <!--==============================header=================================-->
 <header>
-<div class="container_12">
+<div class="container_12 ">
     <div class="grid_12">
+<<<<<<< HEAD
       <h1><a href="index.html"><img src="images/logo.png" alt="Psicologa Infantil Danielli Ponciano"></a></h1>
       <div class="menu_block">
          <nav>
@@ -86,6 +111,105 @@
         </div>
       </div>
   </div>
+=======
+        <h1><a href="index.html"><img src="images/logo.png" alt="Psicologa Infantil Danielli Ponciano"></a></h1>
+        <div class="menu_block">
+               <nav>
+            <ul class="sf-menu">
+                   <li><a href="index.html">Início</a></li>
+                   <li class="current"><a href="psicologa-infantil.html">Sobre</a> </li>
+                   <li><a href="atendimento-psicologia-para-criancas.html">Serviço</a> </li>
+                   <li><a href="meu-filho-precisa-terapia-infantil.html">FAQ</a> </li>
+                   <li><a href="consultorio-infantil-sao-paulo.html">Contato</a></li>
+                 </ul>
+          </nav>
+               <div class="clear"></div>
+             </div>
+        
+         </div>
+  </div>
+</header>
+<!--=======content================================-->
+<div class="content sobre">
+  
+  <div class="container_12 ">
+    <div class="grid_12">
+        <h2 class="page-title">Psicologia Infantil</h2>
+        
+      <img src="images/terapia-dos-pequenos-img-21.jpg" alt="" class="img-responsive">
+    </div>  
+  
+    <div class="grid_12">
+      <h3>Danielli Ponciano - <span>Psicologa Infantil</span></h3>
+      <p><strong>Profissional experiente e de confiança</strong></p>
+      <ul>
+        <li>Graduada em Psicologia…</li>
+        <li>Experiência em Desenvolvimento Cognitivo Infantil... </li>
+        <li>Atendimento a crianças autistas ..</li>
+        <li>Criança com atraso na fala …</li>
+        <li>Dificuldade de interação social (por exemplo, não faz amigos na escola) ..</li>
+        <li>Hiperativas ou com deficit de atenção (histórico) </li>
+      </ul>
+    </div>
+    <!-- <div class="grid_8 emp_box">
+      <h3>Our Staff</h3>
+    
+     <div class="grid_4 alpha ">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page2_img2.jpg" alt="">
+          <div class="extra_wrapper"><p><strong>Mark Johnson</strong> </p>
+            <a href="#">Quisquam est qui dolorem ipsumquia  dolor adipisci eius unumquam.</a>
+          </div></div>
+        </div>
+      </div>
+      <div class="grid_4 omega">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page2_img3.jpg" alt="">
+          <div class="extra_wrapper"><p><strong>Bradley Grosh</strong></p>
+             <a href="#">Ut wisi enim ad min ve niam, quis nostrudexerci tation ullam.</a>
+          </div></div>
+        </div>
+      </div>
+      <div class="clear cl1"></div>
+      <div class="grid_4 alpha">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page2_img4.jpg" alt="">
+          <div class="extra_wrapper"><p><strong>Patrick Pool</strong></p> <a href="#">Ullamcorper suscipit lobo rtis nisl t aliquip ex ea commodo conseqa adipisci.</a> </div>
+        </div></div>
+      </div>
+      <div class="grid_4 omega">
+         <div class="box"><div class="maxheight1">
+          <img src="images/page2_img5.jpg" alt="">
+          <div class="extra_wrapper"><p><strong>Sam Kromstain</strong></p> <a href="#">Sed diam non umy nibheuismod incidunt ut lao reet dolore magna. </a></div>
+        </div></div>
+      </div> -->
+    <div class="clear"></div>
+    </div>
+    
+  <div class="container_12 car">
+  <div class="grid_12">
+    <h3><span>Depoimentos</span></h3>
+    <div class="carousel_wrapper">
+    <a href="#" class="prev1"></a><a href="#" class="next1"></a><div>
+      <ul class="carousel1">
+      <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
+            <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
+            <li>
+        <p><em>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</em></p>
+        <!-- <a href="#" class="btn">read more</a> -->
+      </li>
+      </ul>
+    </div>
+  </div>
+</div></div>
+  
+>>>>>>> 2d81e1d35505dc7c956b4d9ee3086bc97db8ee0c
 </div>
 <!--==============================footer=================================-->
 <div class="container_12">

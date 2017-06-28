@@ -29,6 +29,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	font-family: 'bree_rgregular', Arial, Helvetica, sans-serif;
+	font-weight: 100;
 }
 html, body {
 	height:100%;
@@ -266,6 +267,12 @@ header h1 a img {
 	display: block;	width: 100%;
 }
 
+.img-responsive{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
 .box {
 	padding: 29px 18px 17px;
 	background: url(../images/box_bg.png) 0 0 repeat;
@@ -284,6 +291,18 @@ header h1 a img {
 	border-bottom: 1px solid #d2d1d1;
 	padding-bottom: 18px;
 	margin-bottom: 18px;
+}
+
+.box h3{
+	background: #05a3c0;
+    color: #FFF;
+    padding: 10px;
+    height: 35px;
+    line-height: normal;
+}
+
+.box a.saiba{
+	margin-top: 18px;
 }
 
 .box i {
@@ -407,6 +426,8 @@ header h1 a img {
 }
 .bg1 {
 	background: url(../images/cont_bg.png) 0 0 repeat;
+	display: table;
+    width: 100%;
 }
 
 .content.page1 h3 {
@@ -435,6 +456,33 @@ header h1 a img {
 	border-top: 1px solid #D4D4D4;
 	padding-top: 0;
 }
+
+/** Home Intro */
+
+.intro h2{
+	background: #b382ba;
+    padding: 10px;
+    color: #FFF;
+    margin: 0 10px;
+}
+
+.intro p{
+	background: #fec232;
+    padding: 10px;
+    max-width: 74%;
+    color: #333;
+    font-size: 18px;
+    margin:0 10px 47px 10px;
+}
+
+
+/**Home Destaques**/
+
+.destaques{
+	margin-bottom: 47px;
+}
+
+
 /****Map***/
 
 .map {
@@ -464,6 +512,27 @@ address dd span {
 address dt p {
 	margin-bottom: 10px;
 }
+
+/* Sobre */
+
+.page-title{
+	color: #b382ba;
+	font-size: 30px;
+	border-bottom: 1px solid #b382ba;
+	margin-bottom: 35px;
+}
+
+.content.sobre{
+	padding-top: 46px;
+}
+.sobre h3{
+	font-size: 26px; display: inline-block; color: #05a3c0;
+}
+.sobre h3 span{
+	font-size: 18px;
+}
+
+
 /************Footer***********/
 
 footer {
