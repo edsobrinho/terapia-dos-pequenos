@@ -1,248 +1,797 @@
-<!DOCTYPE html>
-<html lang="en">
-     <head>
-     <title>Clinica de Psicologia Infantil próximo a Paulista</title>
-     <meta charset="utf-8">
-     <meta name = "format-detection" content = "telephone=no" />
-     <meta name = "description" content = "Consultorio de psicologia para crianças de 2 a 11 anos - diagnostico e atendimento a autistas, hiperativos e tratamentos para medos, fobias, dificuldade de aprendizagem" />
-     <link rel="icon" href="images/favicon.ico" >
-     <link rel="shortcut icon" href="images/favicon.ico"  />
-     <link  rel="stylesheet" media="screen" href="css/style.css">
-     <link  rel="stylesheet" href="css/camera.css">
-     <link  rel="stylesheet" href="css/carousel.css">
-     <link  rel="stylesheet" href="css/font-awesome.css">
-     <script src="js/jquery.js"></script>
-     <script src="js/jquery-migrate-1.1.1.js"></script>
-     <script src="js/script.js"></script> 
-     <script src="js/jquery.equalheights.js"></script>
-     <script src="js/superfish.js"></script>
-     <script  src="js/jquery.responsivemenu.js"></script>
-     <script  src="js/jquery.mobilemenu.js"></script>
-     <script  src="js/jquery.easing.1.3.js"></script>
-     <script src="js/camera.js"></script>
-     <!--[if (gt IE 9)|!(IE)]><!-->
-     <script  src="js/jquery.mobile.customized.min.js"></script>
-     <!--<![endif]-->
-      
-     <script  src="js/jquery.touchSwipe.min.js"></script>
-     <script>
-     	$(document).ready(function(){
-      jQuery('#camera_wrap').camera({
-        loader: false,
-        pagination: false,
-        thumbnails: false,
-        height: '45%',
-        caption: false,
-        navigation: true,
-        fx: 'simpleFade' 
-      });   
-			}); 
-   
- 
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Clinica de Psicologia Infantil próximo a Paulista</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name = "description" content = "Consultorio de psicologia para crianças de 2 a 11 anos - diagnostico e atendimento a autistas, hiperativos e tratamentos para medos, fobias, dificuldade de aprendizagem" />
+    <!--Core Styles-->
+    <link href="assets/css/core/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/external/font-awesome.min.css" rel="stylesheet" />
+    <!--External Styles-->
+    <link href="assets/css/external/jquery-ui.css" rel="stylesheet" />
+    <link href="assets/css/external/jquery-ui.theme.css" rel="stylesheet" />
+    <link href="assets/css/external/ytplayer.css" rel="stylesheet" />
+    <link href="assets/css/external/jquery.bxslider.css" rel="stylesheet" />
+    <link href="assets/css/external/yamm.css" rel="stylesheet" />
+    <link href="assets/css/external/slick.css" rel="stylesheet" />
+    <!--Project Styles-->
+    <link href="assets/css/project/styles.css" rel="stylesheet" />
+    <!--Google Web Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans|Raleway" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Header -->
+    <header id="home">
+        <div class="fullscreen-slider">
+            <!--Header Intro-->
+            <!--
+            <div class="header-intro visible-lg">
+                <div class="container pt-0 pb-0 ">
+                    <div class="header-intro-section">
+                        <div class="icon-box">
+                            <i class="fa fa-clock-o"></i>
+                            <div class="icon-box-text">
+                                <p>
+                                    <strong>Segunda - Sexta 9:00 - 18:00</strong><br />
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa fa-home"></i>
+                            <div class="icon-box-text">
+                                <p>
+                                    <strong>208 Manhattan St.</strong><br />
+                                    Pittsfield, MA 01201
+                                </p>
+                            </div>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fa fa-envelope-o"></i>
+                            <div class="icon-box-text">
+                                <p>
+                                    <strong>psychologist@solution.com</strong>
+                                    <br />&nbsp;
+                                </p>
+                            </div>
+                        </div>
 
-  
-     </script>
-     <!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
-     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-
-    	<link  type="text/css" media="screen" href="css/ie.css">
-    <![endif]-->
-     </head>
-     <body>
-<!--==============================header=================================-->
-<header>
-  <div class="container_12">
-      <div class="grid_12">
-          <h1><a href="index.html"><img src="images/logo.png" alt="Clinica de Psicologia Infantil próximo a Paulista"></a></h1>
-          <div class="menu_block">
-                 <nav>
-                  <ul class="sf-menu">
-                     <li class="current"><a href="index.html">início</a></li>
-                     <li><a href="psicologa-infantil.html">sobre</a></li>
-                     <li><a href="atendimento-psicologia-para-criancas.html">serviço</a></li>
-                     <li><a href="meu-filho-precisa-terapia-infantil.html">FAQ</a></li>
-                     <li><a href="consultorio-infantil-sao-paulo.html">contato</a></li>
-                  </ul>
-                </nav>
-                <div class="clear"></div>
-          </div>
-          
-      </div>
-  </div>
-</header>
-<div class="clear"></div>
-<div class="bg1">
-<div class="container_12">
-  <div class="grid_12">
-    <div class="slider_wrapper">
-      <div>
-      <div id="camera_wrap" class="">
-               <div data-src="images/terapia-dos-pequenos-img-01.jpg">
-                 <div class="caption fadeIn">
-                   <!--
-                   <h2>
-                      We will help 
-                      you to 
-                      protect 
-                      your rights! 
-                    </h2>
--->
-                  
-<!--                    <h2>We will help 
-you to 
-protect 
-your rights! </h2> -->
-
-                 </div>
-               </div>
-                 <div data-src="images/terapia-dos-pequenos-img-08.jpg">
-                   <div class="caption fadeIn">
-                     <!--
-                      <h2>Applying  </h2>appropriate market research solutions
-                     -->
-                   </div>
-
-                 </div>
-                 <div data-src="images/terapia-dos-pequenos-img-05.jpg">
-                   <div class="caption fadeIn">
-                     <!--
-                     <h2>Helping</h2>your business 
-get back on its 
-feet 
-                     -->
-                   </div>
-                 </div>
-                 <div data-src="images/terapia-dos-pequenos-img-13.jpg">
-                   <div class="caption fadeIn">
-                     <!--
-                     <h2>Applying  </h2>appropriate market
-research solutions
+                        <div class="icon-box pull-right">
+                            <i class="fa fa-phone"></i>
+                            <div class="icon-box-text">
+                                <p>
+                                    <strong>+1 123 456 4569</strong>
+                                    <br />&nbsp;
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            --!>
+            <!--End Header Intro-->
+            <!-- Main Menu -->
+            <div id="main-menu">
+                <div class="navbar yamm navbar-default" role="navigation">
+                    <div class="container pt-0 pb-0">
+                        <!--**** Brand and toggle get grouped for better mobile display ****-->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-navbar">
+                                <span class="sr-only">
+                                    Toggle navigation
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                                <span class="icon-bar">
+                                </span>
+                            </button>
+                            <a class="navbar-brand hidden-sm" href="#">Terapia dos Pequenos</a>
+                        </div>
+                        <!--**** Collect the nav links, forms, and other content for toggling ****-->
+                        <div class="collapse navbar-collapse" id="main-menu-navbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">início</a></li>
+                                <li><a href="psicologa-infantil.html">sobre</a></li>
+                                <li><a href="atendimento-psicologia-para-criancas.html">serviço</a></li>
+                                <li><a href="meu-filho-precisa-terapia-infantil.html">FAQ</a></li>
+                               <li><a href="consultorio-infantil-sao-paulo.html">contato</a></li>
+                            </ul>
+                        </div>
+                        <!--**** End navbar-collapse ****-->
+                    </div>
+                    <!--**** End container-fluid ****-->
+                </div>
+            </div>
+            <!-- End Main Menu -->
+            <div class="tbl">
+                <div class="tbl-cell">
+                    <ul class="title-slider">
+                        <!--
+                        <li>
+                            <h1>
+                                Welcome To 
+                                <span class="color-text">
+                                    PsychologistPro
+                                </span> 
+                            </h1>
+                        </li>
+                        <li>
+                            <h1>
+                                <span class="color-text">Experts</span> Are Here
+                            </h1>
+                        </li>
+                        <li>
+                            <h1>
+                                With 10 Years of <span class="color-text"> Experience</span>
+                            </h1>
+                        </li>
+                        <li>
+                            <h1>
+                                <span class="color-text">
+                                    Do not
+                                </span> Wait
+                            </h1>
+                        </li>
+                        <li>
+                            <h1>
+                                There Is A 
+                                <span class="color-text">
+                                    Solution
+                                </span> 
+                            </h1>
+                        </li>
+                        <li>
+                            <h1>
+                                We Can 
+                                <span class="color-text">
+                                    Help 
+                                </span>You
+                            </h1>
+                        </li>
+                        
+                    </ul>
+                    <p>We are here to help you to solve your serious problems</p>
+                    <a href="#intro" id="start-button" class="btn btn-normal-alternative btn-lg">GET STARTED</a>
                     -->
-                   </div>
-                 </div>
-               </div>
-        </div></div>
-      </div>
-    </div>
-
- <div class="page1_block">
-  <div class="container_12">
-    <div class="inside">
-      <h1>Consultorio de Terapia Infantil</h1>
-      
-    </div>
-  </div>
-</div>
-<!--
-=======
-
->>>>>>> 2d81e1d35505dc7c956b4d9ee3086bc97db8ee0c
-<div class="page1_block">
-  <div class="container_12 intro">
-  <h2>Consultorio de Terapia Infantil</h2>
-  <p><strong>Danielli Ponciano</strong> é Psicologa especializada em Desenvolvimento Cognitivo Infantil</p>
-  </div>
-  <div class="container_12 destaques">
-    <div class="grid_4">
-      <div class="box ic1 "><div class="maxheight">
-        <h3>Terapia Infantil</h3>
-        <img class="img-responsive" src="images/terapia-dos-pequenos-img-09.jpg">
-        <a href="psicologa-infantil.html" class="btn saiba">Saiba Mais</a></div>
-      </div>
-    </div>
-    <div class="grid_4">
-      <div class="box ic2"><div class="maxheight">
-        <h3>Quando Procurar um Psicologo Infantil?</h3>
-        <img class="img-responsive" src="images/terapia-dos-pequenos-img-14.jpg">
-        <a href="meu-filho-precisa-terapia-infantil.html" class="btn saiba">Saiba Mais</a></div>
-      </div>
-    </div>
-    <div class="grid_4">
-      <div class="box ic3"><div class="maxheight">
-        <h3>Atendimento na região do Paraíso</h3>
-        <img class="img-responsive" src="images/terapia-dos-pequenos-img-19.jpg">
-        <a href="atendimento-psicologia-para-criancas.html" class="btn saiba">Saiba Mais</a></div>
-      </div>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-</div>
-
-<!--=======content================================-->
-<!--
-<div class="content page1">
-  <div class="container_12">
-    <div class="grid_4">
-      <div class="pad1">
-        <h3>Capabilities</h3>
-        <ul class="list">
-         <li><a href="#">Suspendisse sollicitudin velit</a></li>
-         <li><a href="#">Ut pharetra augue nec augue</a></li>
-         <li><a href="#">Nam elit agna,endrerit sit amet</a></li>
-         <li><a href="#">Tincidunt ac, viverra sed, nulla</a></li>
-         <li><a href="#">Donec porta diam eu massa</a></li>
-         <li><a href="#">Quisque diam lorem</a></li>
-         <li><a href="#">Interdum vitae,dapibus ac</a></li>
-         <li><a href="#">Scelerisque vitae, pede</a></li>
-         <li class="mb0"><a href="#">Donec eget tellus non erat</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="grid_8 emp_box">
-      <h3>Our Projects</h3>
-      <div class="grid_4 alpha ">
-         <div class="box"><div class="maxheight1">
-          <img src="images/page1_img1.jpg" alt="">
-          <div class="extra_wrapper"><p><strong>Nique porro</strong> </p>
-            <a href="#">Quisquam est qui dolorem ipsumquia  dolor adipisci eius unumquam.</a>
-          </div></div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="grid_4 omega">
-         <div class="box"><div class="maxheight1">
-          <img src="images/page1_img2.jpg" alt="">
-          <div class="extra_wrapper"><p><strong>Ut wisi enim</strong></p>
-             <a href="#">Ut wisi enim ad min ve niam, quis nostrudexerci tation ullam.</a>
-          </div></div>
-        </div>
-      </div>
-      <div class="clear cl1"></div>
-      <div class="grid_4 alpha">
-         <div class="box"><div class="maxheight1">
-          <img src="images/page1_img3.jpg" alt="">
-          <div class="extra_wrapper"><p><strong>Duis autem</strong></p> <a href="#">Ullamcorper suscipit lobo rtis nisl t aliquip ex ea commodo conseqa adipisci.</a> </div>
-        </div></div>
-      </div>
-      <div class="grid_4 omega">
-         <div class="box"><div class="maxheight1">
-          <img src="images/page1_img4.jpg" alt="">
-          <div class="extra_wrapper"><p><strong>Quis nostrud</strong></p> <a href="#">Sed diam non umy nibheuismod incidunt ut lao reet dolore magna. </a></div>
-        </div></div>
-      </div>
-    </div>
-  </div>
-</div>
--->
-<!--==============================footer=================================-->
+    </header>
+    <!-- End Header -->
+    <!--Intro-->
+    <!--
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>AWESOME THERAPY FEATURES</h1>
+                    <br />
+                    <p  class="text-size-18">
+                        Sed porttitor, justo in feugiat mollis, nunc velit luctus purus, in commodo nisi magna sapien.
+                    </p>
+                </div>
+            </div>
+            <div class="vs-30"></div>
+           <div class="row">
+                <div class="col-lg-3">
+                
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>GROUP THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
 
-<div class="container_12">
-  <div class="grid_12">
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-stethoscope"></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>ANXIETY THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-heart-o "></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>COUPLES THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6"><div class="vs-30"></div><img class="img-responsive img-circle" src="assets/img/other/11.jpg" /></div>
+                <div class="col-lg-3">
+                  
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-child"></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>CHILDS THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
+                    </div><hr />
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-thumbs-o-up"></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>ADDICTION THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
+                    </div><hr />
+                    <div class="row">
+                        <div class="intro-item-wrap">
+                            <div class="intro-item-icon">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+                            <div class="intro-item-text">
+                                <h5>INDIVIDUAL THERAPY</h5>
+                                <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--End Intro-->
+    <!-- Video -->
+    <!--
+    <section id="full-screen-video" class="video-section">
+        <div class="pattern-overlay">
+    -->
+            <!-- Video Background Text-->
+            <!--
+            <div class="container tbl">
+                <div class="tbl-cell">
+                    <h1>
+                        Full screen
+                        <span class="color-text">
+                            video
+                        </span> background
+                    </h1>
+                    <div class="vs-35">
+                    </div>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.Praesent commodo cursus magna. Donec sed odio dui.</p>
+                </div>
+            </div>
+            -->
+            <!-- End Video Background Text-->
+        <!-- </div> -->
+        <!-- Video Background -->
+        <!--
+        <a class="player" data-property="{videoURL:'6nEL44QkL9w',containment:'.video-section', quality:'hd720', autoPlay:true, mute:true, opacity:1}">bg</a>
+        --.
+        <!-- End Video Background -->
+    <!--
+    </section>
+    -->
+    <!-- End Video -->
+    <!-- Explanation -->
+    <section id="explanation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>What do you want?</h1>
+                    <div class="vs-20"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12"><h4>Nice THERAPY</h4><p>Cras non odio tempus, euismod eros eget, venenatis ligula. Nullam augue sem, tincidunt sed elit ac, mollis eleifend justo. Aliquam non magna ac risus lacinia lacinia quis eu justo. Praesent a tempus ante. Etiam ac turpis finibus, aliquam augue quis, feugiat est.</p></div>
+                <div class="col-md-4 col-sm-12 col-xs-12"><h4>Good THERAPY</h4><p>Cras non odio tempus, euismod eros eget, venenatis ligula. Nullam augue sem, tincidunt sed elit ac, mollis eleifend justo. Aliquam non magna ac risus lacinia lacinia quis eu justo. Praesent a tempus ante. Etiam ac turpis finibus, aliquam augue quis, feugiat est.</p></div>
+                <div class="col-md-4 col-sm-12 col-xs-12"><h4>Best THERAPY</h4><p>Cras non odio tempus, euismod eros eget, venenatis ligula. Nullam augue sem, tincidunt sed elit ac, mollis eleifend justo. Aliquam non magna ac risus lacinia lacinia quis eu justo. Praesent a tempus ante. Etiam ac turpis finibus, aliquam augue quis, feugiat est.</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Explanation -->
+    <!-- Dark Bg -->
+    <div class="dark-bg  default-hovered animated-text">
+        <div class="container pt-0 pb-0">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <h2>Change your mindset</h2>
+                        <h2>Be Happy</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Dark Bg -->
+    <!-- Testimional -->
+    <section id="testimionals">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1>Testimonials</h1>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+                    <div class="testimonials-2-slide testimonials-2-slide-wrapper">
+
+                        <div class="slider gallery-slideshow testimonials-2-testimonial">
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna. Donec sed odio dui.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Albert Einstein</h4>
+                                    <p>New York, USA</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Nicola Tesla</h4>
+                                    <p>Rome, Italy</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Jane Doe</h4>
+                                    <p>Berlin, German</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Albert Einstein</h4>
+                                    <p>Paris, France</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Nicola Tesla</h4>
+                                    <p>New York, USA</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Leonardo da Vinci</h4>
+                                    <p>Istanbul, Turkey</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase color-text">Jan Doe</h4>
+                                    <p>Munih, German</p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="testimonial-item">
+
+                                <div class="testimonial-content">
+
+                                    <p class="speech">
+                                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+                                    </p>
+
+                                    <h4 class="uppercase text-warning">James Hogue</h4>
+                                    <p>Colorado, USA</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="clear"></div>
+
+                        <div class="slider  testimonials-2-testimonial-nav alt">
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-1.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-2.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-3.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-1.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-2.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="testimonial-people">
+                                    <div class="img">
+                                        <img src="assets/img/people/smile-3.jpg" alt="img" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimional -->
+    <!-- Request Quote -->
+    <section id="request-quote">
+        <div class="request-quote-wrap">
+            <div class="container pt-90">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Request An Appointment</h1>
+                        <form method="post" action="http://fatiherim.com/psychologistpro/index.html" class="default-form">
+                            <div class="row clearfix">
+                                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                    <input type="text" name="name" value="" placeholder="Your Name" required="">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-12 col-xs-12">
+                                    <input type="email" name="email" value="" placeholder="Your Email" required="">
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <select name="subject">
+                                        <option>-Subject to Discuss-</option>
+                                        <option>Personal Problems</option>
+                                        <option>Child Problems</option>
+                                        <option>Relationship Problems</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="phone" value="" placeholder="Your Phone Number" required="">
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <input type="text" name="datepicker" id="datepicker" value="" placeholder="Available Date" required="">
+                                </div>
+                                <div class="form-group padd-top-10 col-md-12 col-sm-12 col-xs-12">
+                                    <button type="submit" class="btn btn-normal pull-right">Send Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Request Quote -->
+    <!--Blog-->
+    <!--
+    <section id="blog" class="bg-alternative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>BLOG</h1>
+                    <br>
+                    <p class="text-size-18">
+                        Sed porttitor, justo in feugiat mollis, nunc velit luctus purus, in commodo nisi magna sapien.
+                    </p>
+                </div>
+            </div>
+            <div class="vs-30"></div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12 home-blog-item">
+                    <div class="blog-post-main-img">
+                        <img src="assets/img/other/1.jpg" class="img-responsive" alt="">
+                    </div>
+
+                    <h1 class="blog-post-title pt-35">
+                        <a href="blog-post-html.html">Vision gives you a limitless freedom!</a>
+                    </h1>
+                    <div class="blog-post-title-details">
+                        <i class="fa fa-calendar-o"></i> March 5, 2016 &nbsp;&nbsp;&nbsp; Posted by Admin &nbsp;&nbsp;&nbsp;   <i class="fa fa-comments-o"></i> 12
+                    </div>
+                    <div class="vs-30"></div>
+                    <div class="blog-post-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum arcu at risus faucibus pretium. Vestibulum egestas nulla lacus, a faucibus justo vulputate et.
+                        </p>
+                        <div class="vs-20"></div>
+                        <p><a href="blog-post.html" class="btn btn-normal-alternative-blog ">Read More...</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 home-blog-item">
+                    <div class="blog-post-main-img">
+                        <img src="assets/img/other/1.jpg" class="img-responsive" alt="">
+                    </div>
+
+                    <h1 class="blog-post-title pt-35">
+                        <a href="blog-post-html.html">Vision gives you a limitless freedom!</a>
+                    </h1>
+                    <div class="blog-post-title-details">
+                        <i class="fa fa-calendar-o"></i> March 5, 2016 &nbsp;&nbsp;&nbsp; Posted by Admin &nbsp;&nbsp;&nbsp;   <i class="fa fa-comments-o"></i> 12
+                    </div>
+                    <div class="vs-30"></div>
+                    <div class="blog-post-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum arcu at risus faucibus pretium. Vestibulum egestas nulla lacus, a faucibus justo vulputate et.
+                        </p>
+                        <div class="vs-20"></div>
+                        <p><a href="blog-post.html" class="btn btn-normal-alternative-blog ">Read More...</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 home-blog-item">
+                    <div class="blog-post-main-img">
+                        <img src="assets/img/other/1.jpg" class="img-responsive" alt="">
+                    </div>
+
+                    <h1 class="blog-post-title pt-35">
+                        <a href="blog-post-html.html">Vision gives you a limitless freedom!</a>
+                    </h1>
+                    <div class="blog-post-title-details">
+                        <i class="fa fa-calendar-o"></i> March 5, 2016 &nbsp;&nbsp;&nbsp; Posted by Admin &nbsp;&nbsp;&nbsp;   <i class="fa fa-comments-o"></i> 12
+                    </div>
+                    <div class="vs-30"></div>
+                    <div class="blog-post-content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum arcu at risus faucibus pretium. Vestibulum egestas nulla lacus, a faucibus justo vulputate et.
+                        </p>
+                        <div class="vs-20"></div>
+                        <p><a href="blog-post.html" class="btn btn-normal-alternative-blog ">Read More...</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--End Blog-->
+    <!-- Seperator -->
+    <section id="seperator1" class="seperator">
+        <div class="container pt-90">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="font-icon">
+                        <i class="fa fa-map-o color-text"></i>
+                    </div>
+                    <div class="vs-25"></div>
+                    <div class="seperator-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sed magna vel velit dignissim luctus eu in urna. Praesent faucibus nisl sit amet nulla sollicitudin. </p>
+                    </div>
+                    <div class="vs-25"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Seperator -->
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact-bg">
+            <div class="container">
+                <div class="vs-60"></div>
+                <div class="row  contact-wrap">
+                    <div class="col-lg-4 col-lg-offset-1 ">
+
+                        <!-- Contact Details -->
+
+                        <div class="contact-details-wrap">
+                            <h3>Contact Details</h3>
+                            <div class="vs-20"></div>
+                            <ul class="contact-details">
+                                <li><span class="contact-details-icon"><i class="fa fa-map-marker"></i></span> 1100 Boston Rd. Bronx, NY 10456</li>
+                                <li><span class="contact-details-icon"><i class="fa fa-phone"></i></span> +1 234 456 789</li>
+                                <li><span class="contact-details-icon"><i class="fa fa-envelope-o"></i></span> info@website.com</li>
+                                <li><span class="contact-details-icon"><i class="fa fa-globe"></i></span> http://themeforest.com</li>
+                            </ul>
+                        </div>  <!-- End Contact Details-->
+                    </div>
+                    <div class="col-lg-7 ">
+                        <div class="contact-send-message-wrap">
+
+                            <!-- Contact Form -->
+
+                            <form id="contact-form" action="http://fatiherim.com/psychologistpro/post">
+                                <ul>
+                                    <li><input class="form-control" id="contact-name" name="contact-name" placeholder="Name" required="" type="text"></li>
+                                    <li><input id="contact-email" class="form-control" name="contact-email" placeholder="Email" required="" type="email"></li>
+                                    <li><input id="contact-subject" name="contact-subject" class="form-control" placeholder="Subject" required="" type="text"></li>
+                                    <li><textarea id="contact-message" class="form-control" name="contact-message" rows="5" placeholder="Message"></textarea></li>
+                                    <li><button class="btn btn-normal-alternative pull-right" id="contact-send"><i class="fa fa-envelope-o"></i> Send</button></li>
+                                </ul>
+                            </form>  <!-- End Contact Form -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Google Map -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwIQh7LGryQdDDi-A603lR8NqiF3R_ycA"></script>
+            <div id="map"></div> <!-- End Google Map -->
+
+        </div>
+    </section>
+    <!-- End Contact -->
     <footer>
-      <div class="socials">
-        <a href="#">facebook</a> 
-      </div>
-      <div class="copy">Terapia dos Pequenos  &copy; 2017</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Lorem Ipsum</h4>
+                    <p>Nulla commodo arcu a enim pulvinar egestas. Phasellus a pellentesque erat, consectetur molestie tortor. Sed pellentesque turpis ultricies diam pretium aliquet. Nullam vitae faucibus odio, vitae consequat nibh. Nam in auctor nisi, a dictum felis. Cras vulputate purus ac lectus eleifend dignissim.</p>
+                </div>
+                <!--
+                <div class="col-md-4">
+                    <div>
+                        <h4>Latest News</h4>
+                        <div class="latest-news-item">
+                            <p>
+                                <a href="#">
+                                    <img src="assets/img/air-slider/1.jpg" width="100" class="img-responsive" style="float:left;" />
+                                    Sed pellentesque turpis ultricies diam pretium aliquet. <br /><span class="color-text">24 April 2016</span>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="latest-news-item">
+                            <p>
+                                <a href="#">
+                                    <img src="assets/img/air-slider/2.jpg" width="100" class="img-responsive" style="float:left;" />
+                                    Sed pellentesque turpis ultricies diam pretium aliquet. <br /><span class="color-text">24 April 2016</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="col-md-6">
+                    <div>
+                        <h4>Consultorio de Psicologia Infantil</h4>
+                        <p>
+                            Rua Apeninos 664, conjunto 123,<br>
+                            Ed. Freeman, Aclimação - CEP: 01533-000, São Paulo, SP.<br /><br />
+                            Telefone: (11) 99992-1713<br /><br />
+                            Email: contato@terapiadospequenos.com.br
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr />
+            </div>
+            <div class="row">
+                <div class="footer-inner-wrap">
+                    <div class="footer-inner">
+                        <div class="col-lg-12">
+                            <p>Terapia dos Pequenos &copy; 2017</p>
+                            <p>
+                                <a href="#" class="btn-social-media">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-  </div>
-</div>
-
+    <!-- End Footer -->
+    <!-- Go Back Top-->
+    <section id="go-back-top">
+        <a class="scroll" href="#main-menu">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </section>
+    <!-- End Go Back Top-->
+    <!--Core Scripts-->
+    <!--Core Scripts-->
+    <script src="assets/js/core/jquery.min.js"></script>
+    <script src="assets/js/core/bootstrap.min.js"></script>
+    <!--External Scripts-->
+    <script src="assets/js/external/jquery.backstretch.min.js"></script>
+    <script src="assets/js/external/jquery.countTo.js"></script>
+    <script src="assets/js/external/jquery.easing.1.3.js"></script>
+    <script src="assets/js/external/jquery.mb.YTPlayer.min.js"></script>
+    <script src="assets/js/external/waypoints.min.js"></script>
+    <script src="assets/js/external/jquery.bxslider.min.js"></script>
+    <script src="assets/js/external/slick.min.js"></script>
+    <script src="assets/js/external/jquery-ui.js"></script>
+    <!--Project Scripts-->
+    <script src="assets/js/project/script.js"></script>
+    <script src="assets/js/project/testimonials.js"></script>
 </body>
+
 </html>
