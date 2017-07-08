@@ -11,6 +11,8 @@ $(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
     /* Home Fullscreen Slider */
     $(".fullscreen-slider").backstretch([
+        "assets/img/bg/bg1.jpg",
+        "assets/img/bg/bg2.jpg",
         "assets/img/bg/bg3.jpg",
         "assets/img/bg/bg4.jpg"
     ], { duration: 4500, fade: 650 });

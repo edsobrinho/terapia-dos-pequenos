@@ -1,25 +1,21 @@
-﻿/*------------------------------------------------------------------------------------
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
 
-Template Name: PsychologistPro  
-Template URI: http://fatiherim.com/psychologistPro
-Description: Psychologist  HTML5 Template
-Author: Fatih Erim
-Author URI: http://fatiherim.com
-Version: 1.0  
+@font-face {
+    font-family: 'bree_bold';
+    src: url('../../fonts/bree_bold-webfont.woff2') format('woff2'),
+         url('../../fonts/bree_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
--------------------------------------------------------------------------------------*/
-
-
-/*-----------------------------------------------------------------------------------
-/*  Layout Setup
-/*-----------------------------------------------------------------------------------*/
-
+}
 
 body {
     color: #555;
     font-weight: 300;
-    font-size: 13px;
-    font-family: 'Raleway',sans-serif ;
+    font-size: 14px;
+    font-family: 'Nunito',sans-serif ;
+    background-image: url(../../img/bg/bg.png);
+    background-color: transparent;
 }
 
 
@@ -34,7 +30,7 @@ h2,
 h3 {
     color: #333;
     font-weight: 700;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Nunito',sans-serif;
 }
 
 
@@ -43,7 +39,7 @@ h5,
 h6 {
     color: #333;
     font-weight: 400;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Nunito',sans-serif;
 }
 p {
     line-height: 1.8em !important;
@@ -566,7 +562,7 @@ font-size:18px;
 
 
         .title-slider li h1 {
-            font-family:'Raleway';
+            font-family:'Nunito';
             font-size:70px;
             line-height:70px;
             color: #fff;
@@ -654,17 +650,31 @@ font-size:18px;
         padding: 0;
     }
 
+    #main-menu ul{
+        margin-top: 40px;
+    }
 
     #main-menu a {
-        padding: 20px;
-        font-weight: 400;
-        font-size: 11px;
-        font-family: 'Montserrat',sans-serif;
+        padding: 20px 28px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #b382ba;
+    font-family: 'bree_bold',sans-serif;
+    text-transform: none;
+    }
+    #main-menu a.ativo {
+        color: #05a3c0;
     }
         #main-menu a.navbar-brand {
-            padding: 0;
             padding-left: 20px;
             line-height: 50px;
+            background-image: url(../../img/logo.png);
+            background-size: cover;
+            display: block;
+            width: 266px;
+            height: 120px;
+            text-indent: -9999px;
+            margin: 15px 0;
         }
          #main-menu .dropdown {
             z-index: 9999999;
@@ -698,7 +708,7 @@ font-size:18px;
 
 .navbar-default {
     border: none;
-    background-color: #f1f1f1;
+    background-color: #9fd0d4;
 }
 
 
@@ -793,7 +803,7 @@ font-size:18px;
 }
 .yamm-content .title-left {
     margin-top: 0;
-    font-family: 'Raleway';
+    font-family: 'Nunito';
     font-size: 15px;
     font-weight: 300;
     text-transform: uppercase;
@@ -1029,7 +1039,6 @@ text-align:center;
 }
 
 .testimonals-text {
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #fff;
     line-height: 24px;
@@ -1096,7 +1105,7 @@ text-align:center;
         position: relative;
         margin: 10px 0 20px;
         font-weight: 300;
-        font-family: 'Raleway', serif;
+        font-family: 'Nunito', serif;
     }
 
     .testimonial-content h4 {
@@ -1138,7 +1147,7 @@ text-align:center;
         position: relative;
         margin: 10px 0 20px;
         font-weight: 300;
-        font-family: 'Raleway', serif;
+        font-family: 'Nunito', serif;
     }
 
     .testimonial-content h4 {
@@ -1304,7 +1313,6 @@ text-align:center;
 
     .slick-prev:before,
     .slick-next:before {
-        font-family: 'FontAwesome';
         font-size: 18px;
         line-height: 1;
         opacity: .3;
@@ -1825,9 +1833,13 @@ text-align:center;
 footer {
     height: auto;
     width: 100%;
-    background-color: #222222;
-    color: #fff;
-    padding: 50px 0;
+    background-color: #9fd0d4;
+    color: #05a3c0;
+    padding: 25px 0;
+}
+
+footer .container{
+    padding: 0;
 }
 
     footer h1,
@@ -1883,6 +1895,11 @@ footer {
 .col-md-4 p {
     padding-top: 10px;
 }
+footer p{
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+}
 
 footer hr {
     margin: 30px 0;
@@ -1901,21 +1918,24 @@ footer hr {
 }
 
     .btn-social-media i {
-        color: rgb(157, 173, 190);
+        color: #3b5998;
         font-size: 20px;
-        border: 2px solid rgb(157, 173, 190);
+        border: 2px solid #3b5998;
+        background-color: #3b5998;
         padding: 5px;
         margin: 5px;
         display: inline-block;
         width: 30px;
         height: 30px;
         line-height: 20px;
+        color: #fff;
+        margin-left: 50px;
     }
 
     .btn-social-media:hover .fa-facebook {
-        color: #fff;
-        border-color: #3b5998;
-        background-color: #3b5998;
+        color: #FFF;
+        border-color: rgb(157, 173, 190);
+        background-color: rgb(157, 173, 190);
         -moz-transition: all ease-in .2s;
         -o-transition: all ease-in .2s;
         -webkit-transition: all ease-in .2s;
@@ -1976,7 +1996,7 @@ footer hr {
     #top-img-bg h1 {
         margin-top: 0;
         margin-bottom: 0;
-        font-family: 'Raleway';
+        font-family: 'Nunito';
         font-size: 48px;
         line-height: 250px;
         color: #fff;
@@ -2020,7 +2040,7 @@ footer hr {
 
 .about-header {
     font-weight: normal;
-    font-family: 'Raleway';
+    font-family: 'Nunito';
 }
 /*-----------------------------------------------------------------------------------
 /*  Our Numbers
@@ -2359,7 +2379,7 @@ footer hr {
 
 .about-header {
     font-weight: normal;
-    font-family: 'Raleway';
+    font-family: 'Nunito';
 }
 /*Slider*/
 
@@ -2683,13 +2703,10 @@ footer hr {
 .features-4-title {
     font-size: 20px;
     line-height: 40px;
-    font-family: 'Open Sans' ;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .features-4-details {
-    font-family: 'Open Sans', sans-serif ;
-    font-weight: 200;
     font-size: 14px;
     color: #555555;
 }
@@ -2786,7 +2803,6 @@ footer hr {
 .section-intro-text {
     text-align: center;
     color: #555555;
-    font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -3532,11 +3548,12 @@ footer hr {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    background-color: #b382ba;
 }
 
     .default-hovered:hover:after,
     .default-hovered:hover {
-        background-color: #3498DB;
+        background-color: #82d2e5;
     }
 
 
@@ -4147,7 +4164,6 @@ footer hr {
 
     .blog-post-intro h1,
     .portfolio-intro h1 {
-        font-family: 'Open Sans';
         font-weight: 300;
         font-size: 48px;
         line-height: 64px;
@@ -4242,8 +4258,6 @@ footer hr {
     }
 
         .aside-post-link-details .post-name a {
-            font-family: 'Open Sans';
-            font-weight: 300;
             font-size: 14px;
             line-height: 20px;
             color: #333;
@@ -4465,7 +4479,6 @@ footer hr {
     font-size: 16px;
     font-weight: 300;
     color: #999;
-    font-family: 'Open Sans';
     line-height: 20px;
     margin-top: 10px;
 }
@@ -4495,7 +4508,7 @@ footer hr {
 .blog-post-comment-title {
     font-size: 14px;
     color: #555;
-    font-family: 'Open Sans';
+    
     font-weight: 300;
 }
 
@@ -4507,7 +4520,7 @@ footer hr {
 .blog-post-comment-details {
     font-size: 14px;
     color: #999;
-    font-family: 'Open Sans';
+    
     font-weight: 300;
 }
 
@@ -4884,7 +4897,7 @@ footer hr {
 }
 
     .portfolio-item-intro h1 {
-        font-family: 'Open Sans';
+        
         font-weight: 300;
         font-size: 48px;
         line-height: 64px;
@@ -4942,7 +4955,7 @@ footer hr {
 /*Portfolio Description and Details*/
 .portfolio-project-description-wrap h3,
 .portfolio-project-details-wrap h3 {
-    font-family: 'Open Sans';
+    
     font-weight: 300;
     color: #555;
 }
