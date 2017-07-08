@@ -3539,7 +3539,7 @@ footer hr {
 }
 /*Middle Section*/
 .dark-bg {
-    height: 190px;
+    height: 120px;
     background-color: #2d2d2d;
     color: #fff;
 }
@@ -3568,7 +3568,7 @@ footer hr {
         top: 0;
         width: 100%;
         color: #fff;
-        line-height: 140px;
+        line-height:70px;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
