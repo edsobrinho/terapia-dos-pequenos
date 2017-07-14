@@ -1,9 +1,9 @@
 ﻿
-$("#home").css({ 'height': ($(window).height() ) + 'px' });//Fix fullscreen slider height
-$("#home-half").css({ 'height': ($(window).height()/2) + 'px' });//Fix fullscreen slider height
-$(".full-screen-img").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen image height
-$(".full-screen-video").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen video height
-$(".pattern-overlay").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen pattern overlay height
+// $("#home").css({ 'height': ($(window).height() ) + 'px' });//Fix fullscreen slider height
+// $("#home-half").css({ 'height': ($(window).height()/2) + 'px' });//Fix fullscreen slider height
+// $(".full-screen-img").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen image height
+// $(".full-screen-video").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen video height
+// $(".pattern-overlay").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen pattern overlay height
 
 $(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
@@ -158,29 +158,29 @@ window.onload = function () {
                  {
                      "featureType": "road",
                      "stylers": [
-                       { "color": "#111111" }
+                       { "color": "#B382BA" }
                      ]
                  }, {
                      "featureType": "landscape",
                      "stylers": [
-                       { "color": "#333333" }
+                       { "color": "efefef" }
                      ]
                  }, {
                      "elementType": "labels.text.fill",
                      "stylers": [
-                       { "color": "#fefefe" }
+                       { "color": "#444751" }
                      ]
                  }, {
                      "featureType": "poi",
                      "stylers": [
-                       { "color": "#333333" }
+                       { "color": "efefef" }
                      ]
                  }, {
                      "elementType": "labels.text",
                      "stylers": [
 
                        { "weight": 0.1 },
-                       { "color": "#e5e5e5" }
+                       { "color": "#444751" }
                      ]
                  }, {
                  }
@@ -200,8 +200,8 @@ window.onload = function () {
     var markerNotice = '<div id="marker-content">' +
      '<div id="marker-notice">' +
      '</div>' +
-     '<h4>Locate Us Here</h4>' +
-     '<p>PsychologistPro' +
+     '<h4>Terapia dos Pequenos</h4>' +
+     '<p>Psicologia Infantil' +
      '</p>' +
      '</div>';
 
