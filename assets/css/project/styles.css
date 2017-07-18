@@ -9,6 +9,21 @@
 
 }
 
+@font-face {
+    font-family: 'bree-light-oblique';
+    src: url('../../fonts/bree-light-oblique.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bree-thin';
+    src: url('../../fonts/bree-thin.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     color: #555;
     font-weight: 300;
@@ -1595,11 +1610,13 @@ text-align:center;
     }
 
     .seperator .seperator-text p {
+        font-family: 'bree-thin';
+        color: #C96C92;
         font-size: 20px;
         line-height: 1.6;
         font-weight: bold;
-        text-transform: uppercase;
-        color: #444751;
+        text-transform: none;
+        
     }
 /*-----------------------------------------------------------------------------------
 /*  Contact
@@ -2141,7 +2158,7 @@ footer hr {
     margin-top: -10px;
     font-size: 36px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
     .about-2-title:after {
@@ -2480,8 +2497,8 @@ footer hr {
     margin-top: -10px;
     font-size: 36px;
     font-weight: 700;
-    text-transform: uppercase;
-    font-family: 'bree_bold',sans-serif;
+    text-transform: none;
+    font-family: 'bree-thin';
     color: #C96C92;
 }
 
