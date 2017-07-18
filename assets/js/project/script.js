@@ -108,7 +108,7 @@ $(document).ready(function () {
     /*-----------------------------------------------------------------------------------*/
 
    
-        $('.progress .progress-bar').progressbar({ display_text: 'fill' });
+        //$('.progress .progress-bar').progressbar({ display_text: 'fill' });
  
     /*-----------------------------------------------------------------------------------*/
     /*	Our Numbers
@@ -151,7 +151,7 @@ window.onload = function () {
 /*-----------------------------------------------------------------------------------*/
     'use strict';
 
-    var latlng = new google.maps.LatLng(-23.5732270, -46.6395085);
+    var latlng = new google.maps.LatLng(-23.5732270, -46.639267);
 
     var styles = [
 
@@ -211,7 +211,7 @@ window.onload = function () {
 
     var map = new google.maps.Map(document.getElementById('map'), myOptions);
 
-    var markerPosition = new google.maps.LatLng(-23.5732270, -46.6395085);
+    var markerPosition = new google.maps.LatLng(-23.574107, -46.639267);
 
     var markerImage = 'assets/img/other/marker.png';
     var marker = new google.maps.Marker({
