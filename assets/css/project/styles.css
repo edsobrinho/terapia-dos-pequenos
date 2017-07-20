@@ -439,7 +439,8 @@ input[type="color"]:focus,
 
 
 .color-text {
-    color: #3498DB;
+    color: #b382ba;
+    font-family: 'bree-thin',sans-serif;
 }
 
 .text-center {
