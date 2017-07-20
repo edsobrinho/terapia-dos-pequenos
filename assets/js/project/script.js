@@ -11,10 +11,10 @@ $(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
     /* Home Fullscreen Slider */
     $(".fullscreen-slider").backstretch([
-        "assets/img/bg/bg1.jpg",
-        "assets/img/bg/bg2.jpg",
-        "assets/img/bg/bg3.jpg",
-        "assets/img/bg/bg4.jpg"
+        "assets/img/bg/terapia-infantil.jpg",
+        "assets/img/bg/terapeuta-infantil.jpg",
+        "assets/img/bg/consultorio-psicologa-sao-paulo.jpg",
+        "assets/img/bg/consultorio-psicologa-infantil-em-sao-paulo.jpg"
     ], { duration: 4500, fade: 650 });
 
     /* Home Title Slider */
