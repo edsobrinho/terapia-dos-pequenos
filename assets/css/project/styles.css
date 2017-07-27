@@ -724,9 +724,10 @@ font-size:18px;
             text-align: right;
         }
     }
-    #main-menu a.ativo {
-        color: #05a3c0;
+    #main-menu a.ativo, #main-menu a:hover {
+        color: #05a3c0!important;
     }
+
         #main-menu a.navbar-brand {
             padding-left: 20px;
             line-height: 50px;
