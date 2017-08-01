@@ -14,39 +14,39 @@ $("#rotate-shake").Morphext({
     speed: 3000,
 });
 $("#rotate-tada").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-1").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-2").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-3").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-4").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-5").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-tada-6").Morphext({
-    animation: "fadeInLeft",
+    animation: "fadeIn",
     separator: ",",
-    speed: 5000,
+    speed: 8000,
 });
 $("#rotate-wobble").Morphext({
     animation: "wobble",

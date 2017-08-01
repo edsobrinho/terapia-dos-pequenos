@@ -724,10 +724,9 @@ font-size:18px;
             text-align: right;
         }
     }
-    #main-menu a.ativo, #main-menu a:hover {
-        color: #05a3c0!important;
+    #main-menu a.ativo {
+        color: #05a3c0;
     }
-
         #main-menu a.navbar-brand {
             padding-left: 20px;
             line-height: 50px;
@@ -741,8 +740,8 @@ font-size:18px;
         }
         @media(max-width:991px ){
             #main-menu a.navbar-brand {
-                width: 216px;
-                height: 100px;
+                width: 186px;
+                height: 90px;
             }
         }
         @media(max-width:767px ){
@@ -1691,7 +1690,6 @@ text-align:center;
     #contact .contact-details-wrap{
         background-color: #9fd0d4;
         padding: 10px 20px;
-        margin-bottom: 10px;
     }
     #contact .contact-details-wrap h3{
             color: #05A3C0;
@@ -5313,8 +5311,49 @@ footer hr {
     border-color: #3498DB ;
 }
 /*Explanation*/
+#explanation{
+    height: 420px;
+}
+@media(max-width: 991px){
+   #explanation{
+    height: auto;
+    } 
+}
+
 #explanation col-sm-12,
 #explanation col-xs-12{
     margin-top:20px;
+}
+
+#explanation .center-block{
+    margin: 0 auto;
+    display: table;
+}
+
+#explanation .subtitle{
+    text-align: center;
+}
+@media(max-width: 480px){
+    #explanation .subtitle{
+        font-size: 20px;
+        margin-top: 0;
+    }
+}
+
+#explanation .carrossel-text h2{
+   font-size: 22px; 
+}
+@media(max-width: 991px){
+    #explanation .carrossel-text h2{
+        border-bottom: 1px solid rgba(179, 130, 186, 0.28);
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 480px){
+    #explanation .carrossel-text h2{
+        font-size: 16px;
+    }
 }
 
