@@ -2181,13 +2181,6 @@ footer hr {
     width: 140px;
 }
 
-.about-2-item-text {
-    margin-bottom: 30px;
-    color: #555;
-    font-weight: 300;
-    line-height: 1.4;
-}
-
 .about-header {
     font-weight: normal;
     font-family: 'Nunito';
@@ -2535,9 +2528,11 @@ footer hr {
 
 .about-2-item-text {
     margin-bottom: 30px;
-    color: #555;
+    color: #b382ba;
     font-weight: 300;
     line-height: 1.4;
+    font-family: 'bree-thin',sans-serif;
+    font-weight: bold;
 }
 
 .about-header {
@@ -2880,7 +2875,9 @@ footer hr {
 
 .features-4-details {
     font-size: 14px;
-    color: #555555;
+    font-family: 'bree-thin',sans-serif;
+    font-weight: bold;
+    color: #b382ba;
 }
 /*-----------------------------------------------------------------------------------
 /*  Our Skills
