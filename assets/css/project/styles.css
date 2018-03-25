@@ -70,12 +70,15 @@ blockquote {
     font-size: 15px;
 }
 
-
+/*
 .container {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
+*/  
+.container {
+    padding: 90px 0;
+}
 
 h1,
 h2,
@@ -562,123 +565,13 @@ font-size:18px;
     }  
 }
 
-/*Static Image Background*/
-.fullscreen-image {
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/bg/bg2.html);
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 /*Slider background*/
 .fullscreen-slider {
     width: 100%;
     height: 100%;
 }
-/*Video Image Background*/
-.fullscreen-video {
-    width: 100%;
-    height: 100%;
-}
-
-    .fullscreen-video .pattern-overlay {
-        height: 100%;
-    }
-/*Pattern Background*/
-.fullscreen-pattern {
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/patterns/zwartevilt.html);
-    background-repeat: repeat;
-}
 
 
-/*Home title slider*/
-.title-slider {
-    z-index: 1001;
-    margin-top: -20px;
-}
-
-
-    .title-slider li {
-        left: 0 ;
-    }
-
-
-        .title-slider li h1 {
-            font-family:'Nunito';
-            font-size:70px;
-            line-height:70px;
-            color: #fff;
-            text-transform: uppercase;
-            font-size: 100px;
-            line-height: 100px;
-        }
-
-
-#home p,
-#home-half p {
-    font-size:12px;
-    margin-bottom: 40px;
-    color: #fff;
-    letter-spacing: 2.5px;
-    font-weight: 300;
-    font-family: Open Sans;
-}
-@media(max-width:1199px) {
-    .title-slider li h1 {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-    #home p,
-    #home-half p {
-        letter-spacing: 2px;
-        font-size: 12px;
-    }
-}
-@media(max-width:991px) {
-    .title-slider li h1 {
-        font-size: 50px;
-        line-height: 50px;
-    }
-
-    #home p,
-    #home-half p {
-        letter-spacing: 2px;
-        font-size: 12px;
-    }
-}
-@media(max-width:768px) {
-    .title-slider li h1 {
-        font-size: 60px;
-        line-height: 60px;
-    }
-
-    #home p,
-#home-half p {
-        letter-spacing: 2px;
-        font-size: 14px;
-    }
-}
-
-@media(max-width:480px) {
-    .title-slider li h1 {
-        font-size: 40px;
-        line-height: 40px;
-    }
-
-    #home p,
-#home-half p {
-        letter-spacing: 1.5px;
-        font-size: 12px;
-    }
-}
 
 /*-----------------------------------------------------------------------------------*/
 /* Main Menu
@@ -1979,6 +1872,7 @@ text-align:center;
 /*-----------------------------------------------------------------------------------
 /*  Footer
 /*-----------------------------------------------------------------------------------*/
+
 footer {
     height: auto;
     width: 100%;
@@ -2062,7 +1956,7 @@ footer hr {
 
 /*Social Media*/
 
-
+/*
 .btn-social-media {
     text-decoration: none;
 }
@@ -2121,7 +2015,62 @@ footer hr {
         -webkit-transition: all ease-in .2s;
         transition: all ease-in .2s;
     }
+*/
+.btn-social-media {
+    text-decoration: none;
+}
 
+    .btn-social-media i {
+        color: rgb(157, 173, 190);
+        font-size: 20px;
+        border: 2px solid rgb(157, 173, 190);
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 20px;
+    }
+
+    .btn-social-media:hover .fa-facebook {
+        color: #fff;
+        border-color: #3b5998;
+        background-color: #3b5998;
+        -moz-transition: all ease-in .2s;
+        -o-transition: all ease-in .2s;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+    }
+
+    .btn-social-media:hover .fa-instagram {
+        color: #fff;
+        border-color: #cd486b;
+        background-color: #cd486b;
+        -moz-transition: all ease-in .2s;
+        -o-transition: all ease-in .2s;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+    }
+
+    .btn-social-media:hover .fa-whatsapp {
+        color: #fff;
+        border-color: #128c7e;
+        background-color: #128c7e;
+        -moz-transition: all ease-in .2s;
+        -o-transition: all ease-in .2s;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+    }
+
+    .btn-social-media:hover .fa-linkedin-square {
+        color: #fff;
+        border-color: #0976b4;
+        background-color: #0976b4;
+        -moz-transition: all ease-in .2s;
+        -o-transition: all ease-in .2s;
+        -webkit-transition: all ease-in .2s;
+        transition: all ease-in .2s;
+    }
 /*@media (max-width: 767px) {
     section, .container, .row {
         padding: 0;
