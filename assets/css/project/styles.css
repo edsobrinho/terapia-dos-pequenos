@@ -1956,66 +1956,6 @@ footer hr {
 
 /*Social Media*/
 
-/*
-.btn-social-media {
-    text-decoration: none;
-}
-
-    .btn-social-media i {
-        color: #3b5998;
-        font-size: 20px;
-        border: 2px solid #3b5998;
-        background-color: #3b5998;
-        padding: 5px;
-        margin: 5px;
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        line-height: 20px;
-        color: #fff;
-        margin-left: 50px;
-    }
-
-    .btn-social-media:hover .fa-facebook {
-        color: #FFF;
-        border-color: rgb(157, 173, 190);
-        background-color: rgb(157, 173, 190);
-        -moz-transition: all ease-in .2s;
-        -o-transition: all ease-in .2s;
-        -webkit-transition: all ease-in .2s;
-        transition: all ease-in .2s;
-    }
-
-    .btn-social-media:hover .fa-twitter {
-        color: #fff;
-        border-color: #00a0d1;
-        background-color: #00a0d1;
-        -moz-transition: all ease-in .2s;
-        -o-transition: all ease-in .2s;
-        -webkit-transition: all ease-in .2s;
-        transition: all ease-in .2s;
-    }
-
-    .btn-social-media:hover .fa-pinterest {
-        color: #fff;
-        border-color: #910101;
-        background-color: #910101;
-        -moz-transition: all ease-in .2s;
-        -o-transition: all ease-in .2s;
-        -webkit-transition: all ease-in .2s;
-        transition: all ease-in .2s;
-    }
-
-    .btn-social-media:hover .fa-google-plus {
-        color: #fff;
-        border-color: #dd4b39;
-        background-color: #dd4b39;
-        -moz-transition: all ease-in .2s;
-        -o-transition: all ease-in .2s;
-        -webkit-transition: all ease-in .2s;
-        transition: all ease-in .2s;
-    }
-*/
 .btn-social-media {
     text-decoration: none;
 }
