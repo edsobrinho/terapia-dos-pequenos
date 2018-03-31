@@ -5248,3 +5248,16 @@ footer hr {
     }
 }
 
+.none{display: none;}
+
+.alert-success {
+    background-color:#9fd0d4;
+    border-color:#b382ba;
+}
+    
+.alert-success > p {
+    color: #b382ba;
+    font-family: 'bree-thin',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
