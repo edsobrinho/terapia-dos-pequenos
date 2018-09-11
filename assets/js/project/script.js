@@ -1,5 +1,4 @@
-﻿
-// $("#home").css({ 'height': ($(window).height() ) + 'px' });//Fix fullscreen slider height
+﻿// $("#home").css({ 'height': ($(window).height() ) + 'px' });//Fix fullscreen slider height
 // $("#home-half").css({ 'height': ($(window).height()/2) + 'px' });//Fix fullscreen slider height
 // $(".full-screen-img").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen image height
 // $(".full-screen-video").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen video height
@@ -31,5 +30,10 @@ window.onload = function () {
     $('#status').fadeOut();
     $('#preloader').delay(350).fadeOut('slow');
     $('body').delay(350).css({ 'overflow': 'visible' });
+    $('#contato-left').fadeIn();
  /*End PreLoader*/
+}
+
+function telef(){
+    document.getElementById("telefone").style.display = "block";
 }

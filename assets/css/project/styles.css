@@ -5261,3 +5261,111 @@ footer hr {
     font-size: 16px;
     font-weight: bold;
 }
+
+/** --botões whatsApp e Telefone- **/
+.botaotopo {
+
+    position: fixed !important;
+    float: right!important;
+    display: inline;
+    z-index: 9;
+    right: -20px;
+    padding: 10px;
+    padding-right: 30px;
+    top: 200px;
+    /* background-color: #189d0e; */
+    background-color: #9fd0d4;
+    text-decoration-color: #337ab7;
+    color: #444!important;
+    border-color: #d4d4d4;
+    border: solid 1px;
+    border-radius: 20px;
+    animation-iteration-count: infinite;
+    z-index: 999;
+}
+
+.botaotopo1 {
+
+    position: fixed !important;
+    float: right!important;
+    display: inline;
+    z-index: 9;
+    right: -20px;
+    padding: 10px;
+    padding-right: 30px;
+    top: 270px;
+    /* background-color: #189d0e; */
+    background-color: #9fd0d4;
+    text-decoration-color: #337ab7;
+    color: #444!important;
+    border-color: #d4d4d4;
+    border: solid 1px;
+    border-radius: 20px;
+    animation-iteration-count: infinite;
+    z-index: 999;
+}
+
+.botaotopo:hover{
+    color: #fff;
+    padding-right: 40px;
+
+}
+.botaotopo1:hover{
+    color: #fff;
+    padding-right: 40px;
+
+}
+@media (max-width: 2560px) {
+    .botaotopo{
+        display: block;
+    }
+    .botaotopo1{
+        display: block;
+    }
+    .telefone{
+        width: 40px;
+    }
+    .whats{
+        width: 40px;
+    }
+}
+@media (max-width: 1199px) {
+    .botaotopo{
+        display: block;
+    }
+    .botaotopo1{
+        display: block;
+    }
+    .telefone{
+        width:40px;
+    }
+    .whats{
+        width: 40px;
+    }
+
+}
+@media (max-width: 768px) {
+    .botaotopo{
+        display: block;
+    }
+    .botaotopo1{
+        display: block;
+        padding: 8px;
+        padding-right: 25px;
+    }
+    .telefone{
+        width: 26px;
+    }
+    .whats{
+        width: 26px;
+    }
+}
+@media (max-width: 479px) {
+    .botaotopo{
+        display: block;
+    }
+    .botaotopo1{
+        display: block;
+    }
+    
+}

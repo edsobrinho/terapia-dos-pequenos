@@ -21,6 +21,7 @@ $(document).ready(function () {
     /*	Go Back  Top Button
     /*-----------------------------------------------------------------------------------*/
     $("#go-back-top").hide();
+    $("#contato-left").show();
    
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -33,6 +34,9 @@ $(document).ready(function () {
     
 });
 
+function telef(){
+    document.getElementById("telefone").style.display = "block";
+}
 
 window.onload = function () {
 /*-----------------------------------------------------------------------------------*/
@@ -41,6 +45,7 @@ window.onload = function () {
     $('#status').fadeOut();
     $('#preloader').delay(350).fadeOut('slow');
     $('body').delay(350).css({ 'overflow': 'visible' });
+    $('#contato-left').fadeIn();
 /*End PreLoader*/
 /*-----------------------------------------------------------------------------------*/
 /* Google Map Styles
