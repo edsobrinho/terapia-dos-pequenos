@@ -839,6 +839,11 @@ font-size:18px;
             color: #3498DB;
         }
 
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0px!important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 
 /*Header Intro*/
 .header-intro {
