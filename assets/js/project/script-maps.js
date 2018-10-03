@@ -47,9 +47,12 @@ window.onload = function () {
     $('body').delay(350).css({ 'overflow': 'visible' });
     $('#contato-left').fadeIn();
 /*End PreLoader*/
+}
+
 /*-----------------------------------------------------------------------------------*/
 /* Google Map Styles
 /*-----------------------------------------------------------------------------------*/
+function initMap(){
     'use strict';
 
     var latlng = new google.maps.LatLng(-23.5732270, -46.639267);

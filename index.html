@@ -14,7 +14,7 @@
 <link href=assets/css/external/jquery.bxslider.min.css rel=stylesheet />
 <link href=assets/css/external/slick.min.css rel=stylesheet />
 <link href=assets/css/external/animate.min.css rel=stylesheet />
-<link href=assets/css/project/styles.min.css rel=stylesheet />
+<link href=assets/css/project/styles.css rel=stylesheet />
 <link href=assets/css/project/animate.min.css rel=stylesheet />
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans|Raleway" rel=stylesheet>
 <script>(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments)},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create","UA-104248838-1","auto");ga("send","pageview");</script>
@@ -47,11 +47,23 @@ Toggle navigation
 </div>
 <div class="collapse navbar-collapse" id=main-menu-navbar>
 <ul class="nav navbar-nav navbar-right">
-<li><a class=ativo href=index.html>Início</a></li>
-<li><a href=psicologa-infantil.html>Psicóloga Infantil</a></li>
+<li><a href=index.html>Início</a></li>
+<li class=dropdown>
+<a href=# class=dropdown-toggle data-toggle=dropdown>Psicóloga Infantil</a>
+<ul class=dropdown-menu>
+<li><a href=psicologa-infantil.html>Unidade Paraíso</a></li>
+<li><a href=psicologa-infantil-tatuape.html>Unidade Tatuapé</a></li>
+</ul>
+</li>
 <li><a href=atendimento-psicologia-para-criancas.html>Atendimento</a></li>
 <li><a href=meu-filho-precisa-terapia-infantil.html>Perguntas e Respostas</a></li>
-<li><a href=consultorio-infantil-sao-paulo.html>Contato</a></li>
+<li class=dropdown>
+<a href=# class=dropdown-toggle data-toggle=dropdown>Contato</a>
+<ul class=dropdown-menu>
+<li><a href=consultorio-infantil-sao-paulo.html>Unidade Paraíso</a></li>
+<li><a href=consultorio-infantil-tatuape.html>Unidade Tatuapé</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -210,7 +222,6 @@ Quando uma criança manifesta comportamento problema, na verdade ela não está 
 </div>
 </div>
 </div>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUcQ3b1107L1ezpTe6aDFfyrWHkdrGj24"></script>
 <div id=map></div>
 </div>
 </section>
@@ -257,9 +268,9 @@ Psicóloga Infantil" title="Danielli Ponciano Psicóloga Infantil" target=true>
 <script src=assets/js/external/waypoints.min.js></script>
 <script src=assets/js/external/jquery.bxslider.min.js></script>
 <script src=assets/js/external/slick.min.js></script>
-<script src=assets/js/project/script-maps.min.js></script>
 <script src=assets/js/external/morphext.min.js></script>
 <script src=assets/js/project/text-rotator.min.js></script>
+<script src=assets/js/project/script-maps.js></script>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQFVH2N" height=0 width=0 style=display:none;visibility:hidden></iframe></noscript>
 </body>
 </html>

@@ -492,6 +492,9 @@ font-size:18px;
     background-repeat: no-repeat;
 }
 
+#map{
+    background-image: url('../../img/maps-paraiso.jpg');
+}
 
 /*Text Input addons*/
 
@@ -797,6 +800,7 @@ font-size:18px;
 
     .navbar-right .dropdown-menu {
         left: 0;
+        right: auto !important;
     }
 }
 
