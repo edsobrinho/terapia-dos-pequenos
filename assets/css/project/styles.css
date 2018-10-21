@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
 
 @font-face {
     font-family: 'bree_bold';
@@ -492,12 +492,67 @@ font-size:18px;
     background-repeat: no-repeat;
 }
 
-#map{
-    background-image: url('../../img/maps-paraiso.jpg');
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .maps {background-image: url('../../img/maps-paraiso5x.jpg');}
 }
 
-/*Text Input addons*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .maps {background-image: url('../../img/maps-paraiso5x.jpg');}
+}
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .maps {background-image: url('../../img/maps-paraiso8x.jpg');}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .maps {background-image: url('../../img/maps-paraiso.jpg');}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .maps-contato-paraiso {background-image: url('../../img/maps-paraiso12x.jpg');}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .maps-contato-paraiso {background-image: url('../../img/maps-paraiso12x.jpg');}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .maps-contato-paraiso {background-image: url('../../img/maps-paraiso13x.jpg');}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .maps-contato-paraiso {background-image: url('../../img/maps-paraiso10x.jpg');}
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .maps-contato-tatuape {background-image: url('../../img/maps-tatuape3x.jpg');}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .maps-contato-tatuape {background-image: url('../../img/maps-tatuape3x.jpg');}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .maps-contato-tatuape {background-image: url('../../img/maps-tatuape.jpg');}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .maps-contato-tatuape {background-image: url('../../img/maps-tatuape.jpg');}
+} 
+
+/*Text Input addons*/
 
 .left-inner-addon {
     position: relative;
@@ -520,7 +575,6 @@ font-size:18px;
 .right-inner-addon {
     position: relative;
 }
-
 
     .right-inner-addon input,
     .right-inner-addon textarea {
@@ -5271,7 +5325,7 @@ footer hr {
     font-weight: bold;
 }
 
-/** --botões whatsApp e Telefone- **/
+/** --bot�es whatsApp e Telefone- **/
 .botaotopo {
 
     position: fixed !important;

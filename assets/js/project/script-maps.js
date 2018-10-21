@@ -4,7 +4,6 @@
 // $(".full-screen-img").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen image height
 // $(".full-screen-video").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen video height
 // $(".pattern-overlay").css({ 'height': ($(window).height()) + 'px' });//Fix fullscreen pattern overlay height
-
 $(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
 /*	Sliders
